@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={albert_sans.className}>
         <Stack direction={"row"}>
-          <h1>Ryan Deisler</h1>
+          <h2>Ryan Deisler</h2>
           {children}
         </Stack>
       </body>
