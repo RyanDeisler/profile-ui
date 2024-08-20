@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Albert_Sans } from "next/font/google";
+import { Stack } from "@mui/material";
 import "./globals.css";
 
 const albert_sans = Albert_Sans({ subsets: ["latin"] });
@@ -16,7 +17,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={albert_sans.className}>{children}</body>
+      <body className={albert_sans.className}>
+        <Stack direction={"row"}>
+          <h1>Ryan Deisler</h1>
+          {children}
+        </Stack>
+      </body>
     </html>
   );
 }
