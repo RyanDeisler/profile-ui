@@ -3,8 +3,6 @@ import {
   ButtonProps as MuiButtonProps,
 } from "@mui/material";
 
-const Button: React.FC<MuiButtonProps> = (props) => {
+export default function Button(props: MuiButtonProps) {
   return <MuiButton {...props}></MuiButton>;
-};
-
-export default Button;
+}
