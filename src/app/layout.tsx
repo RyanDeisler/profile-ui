@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Albert_Sans } from "next/font/google";
-import { Stack, Button } from "@mui/material";
+import { Stack } from "@mui/material";
+import Button from "../components";
 import "./globals.css";
 
 const albert_sans = Albert_Sans({ subsets: ["latin"] });
