@@ -3,7 +3,7 @@ import Button from "@/components/Button";
 
 export default function Navbar() {
   return (
-    <Stack spacing={2} className="">
+    <Stack spacing={2} className="text-center">
       <h2>Ryan Deisler</h2>
       <Button>Home</Button>
       <Button>About</Button>
