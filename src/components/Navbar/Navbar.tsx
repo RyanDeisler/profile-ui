@@ -1,12 +1,12 @@
-import { Stack } from "@mui/material";
+import { Stack, Typography } from "@mui/material";
 import Button from "@/components/Button";
 
 export default function Navbar() {
   return (
-    <Stack spacing={2} className="text-center">
-      <h2>Ryan Deisler</h2>
+    <Stack spacing={2} className="text-center min-w-fit">
+      <Typography variant="h6">Ryan Deisler</Typography>
       <Button>Home</Button>
-      <Button>About</Button>
+      <Button>Projects</Button>
       <Button>Contact Me</Button>
     </Stack>
   );

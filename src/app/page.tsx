@@ -11,7 +11,8 @@ export default function Home() {
         width={150}
         height={150}
       ></Image>
-      <Typography variant="h2">Professional Frontend Developer</Typography>
+      <Typography variant="body1">Hi! My name is Ryan Deisler</Typography>
+      <Typography variant="h2">Professional Fullstack Developer</Typography>
     </Stack>
   );
 }
