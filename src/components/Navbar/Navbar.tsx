@@ -1,17 +1,13 @@
 import { Stack, Typography } from "@mui/material";
-import Button from "@/components/Button";
-
-function clickHandler() {
-  console.log(document.URL);
-}
+import Link from "next/link";
 
 export default function Navbar() {
   return (
     <Stack spacing={2} className="text-center min-w-fit">
       <Typography variant="h6">Ryan Deisler</Typography>
-      <Button>Home</Button>
-      <Button onClick={clickHandler}>Projects</Button>
-      <Button>Contact Me</Button>
+      <Link href="/">Home</Link>
+      <Link href="/projects">Projects</Link>
+      <Link href="/contactme">Contact Me</Link>
     </Stack>
   );
 }
